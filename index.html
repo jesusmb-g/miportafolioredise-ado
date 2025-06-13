@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>microproyecto mi portafolio</title>
+    <link rel="stylesheet" href="stiles.css">
+</head>
+<body>
+    <header>
+        <a id="inicio_encabezado"></a>
+        <h1>Jesus Gabriel Montero Bajaña</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#inicio_encabezado">inicio de pagina</a></li>
+                <li><a href="#seccion_sobre_mi">seccion sobre mi</a></li>
+                <li><a href="#tabla_de_habilidades">seccion de habilidades</a></li>
+                <li><a href="#audio">seccion de audio de presentacion</a></li>
+                <li><a href="#formulario_jm">seccion de formulario</a></li>
+                <li><a href="#pie_de_pagina">seccion de pie de pagina</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <img src="img/descarga.jpeg" alt="foto mia">
+    </header>
+    <h1>Avanzamos a nuestro ritmo</h1>
+    <main>
+         <a id="seccion_sobre_mi"></a>
+         <h2>seccion sobre mi</h2>
+         <h3>descripcion personal</h3>
+         <p>Hola navegante, es de mi agrado presentarme por medio de esta pagina web, soy estudiante de la <strong>univercidad tecnica de babahoyo</strong>, perteneciente a la carrera de <mark>sistema de informacion</mark>, tengo 19 años y poseo siertas cualidades que ire contandoles con el  transcurso de la pagina.</p>
+         <p>Me considero como poco sociable pero si me gusta entablar conversaciones con los que se encuentran al mi alrrededor,tengo un numero reducido de amigos a los cuales acudo para pasar buenos ratos. Tambien, soy un poco terco, busco solucionar las cosas a mi manera y evito pedir ayuda a otras personas, lo consdero como un defecto, pero es una actitud que he aprendido a haceptar y una de las que me caracterizan.</p>
+         <p>No soy uno de los mejores en mi clase, incluso llego a distraerme con facilidad, pero, cuando me consentro y me ezfuerzo en un tema que es de mi interes puedo llegar a aportar bastante en los trabajos grupales y me gusta compartir los temas que entendi con el resto de mis compañeros.</p>
+         <p>No se si les agrado a resto, espero poder agradarles ya que para mi es muy importante tener una buena interactividad en el aula y si no le agrado a alguien bueno, <span> pues que se le va a hacer.</span></p>
+         <p>Fuera de la Uni, me gusta hacer deporte, actualente estoy entrenando basquetball despues de las clases de 4:30 a 7:00 manteniendome activo fisicamente y tratando de llevar una vida ordenada con una rutina diaria.</p>
+         <h3>logos e intereses personales</h3>
+         <h3>intereces personales</h3>
+         <ol type="a" start="1">
+             <li>basquetball</li>
+             <li>musica</li>
+             <li>ingenieria en sistema</li>
+             <li>series, peliculas o animes</li>
+         </ol>
+         <h3>logros personales</h3>
+         <ol type="a" start="1">
+             <li>graduarme de bachiller</li>
+             <li>completar un curso de informatica</li>
+             <li>reconocimientos olimpicos</li>
+         </ol>
+         <hr>
+         <h2>tabla de habilidades</h2>
+         <a id="tabla_de_habilidades"></a>
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>habilidad</th>
+                    <th>desempeño</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>comprencion</td>
+                    <td>en clases</td>
+                </tr>
+                <tr>
+                    <td>agilidad</td>
+                    <td>en el deporte</td>
+                </tr>
+                <tr>
+                    <td>analista</td>
+                    <td>en varias sircunstancias</td>
+                </tr>
+                <tr>
+                    <td>paciencia</td>
+                    <td>en el ambito social</td>
+                </tr>
+                </tbody>
+            </table>
+         <hr>
+           <h2>audio de presentacion</h2>
+           <a id="audio"></a>
+           <audio src="audio/Audio de WhatsApp 2025-05-14 a las 18.57.36_74eca739.dat.unknown" controls></audio>
+         <hr>
+    </main>
+    <footer>
+        <a id="formulario_jm"></a>
+        <h2>Formulario de Registro</h2>
+ 
+        <form action="#" method="post">
+    
+        <label for="nombre">Nombre:</label></br>
+        <input type="text" id="nombre" name="nombre" required></br>
+        
+
+        <label for="correo">Correo Electrónico:</label></br>
+        <input type="email" id="correo" name="correo" required></br>
+
+        <label for="edad">Edad:</label></br>
+        <input type="number" id="edad" name="edad" min="0" required></br>
+
+       <label>Género:</label>
+     <div class="radio-group">
+      <input type="radio" id="genero-m" name="genero" value="Masculino">
+      <label for="genero-m">Masculino</label><br>
+      <input type="radio" id="genero-f" name="genero" value="Femenino">
+      <label for="genero-f">Femenino</label><br>
+      
+     </div>
+
+      <label>Intereses:</label>
+      <div class="checkbox-group">
+      <input type="checkbox" id="interes-deporte" name="intereses" value="Deporte">
+      <label for="interes-deporte">Deporte</label><br>
+      <input type="checkbox" id="interes-musica" name="intereses" value="Música">
+      <label for="interes-musica">Música</label><br>
+      <input type="checkbox" id="interes-tecnologia" name="intereses" value="Tecnología">
+      <label for="interes-tecnologia">Tecnología</label>
+      </div>
+
+      <label for="comentarios">Comentarios:</label></br>
+      <textarea id="comentarios" name="comentarios" rows="4"></textarea></br>
+
+      <button type="submit">Enviar</button></br>
+
+     </form>
+     <hr>
+
+    </footer>
+    <a id="pie_de_pagina"></a>
+    <h2>pie de pagina</h2>
+    <p>&#169 2025: Montero Jesus</p>
+    <h3>redes sociales</h3>
+    <a href="https://www.instagram.com/elyisus_mb/">instagram</a> </br>
+    <a href="https://www.tiktok.com/@user.50_42">tiktok</a> </br>
+    <p>jesusgabrielmonterobajana@gmail.com</p>
+    <nav>
+            <ul>
+                <li><a href="#inicio_encabezado">inicio de pagina</a></li>
+                <li><a href="#seccion_sobre_mi">seccion sobre mi</a></li>
+                <li><a href="#tabla_de_habilidades">seccion de habilidades</a></li>
+                <li><a href="#formulario_jm">seccion de formulario</a></li>
+                <li><a href="#pie_de_pagina">seccion de pie de pagina</a></li>
+            </ul>
+        </nav>
+</body>
+</html>
